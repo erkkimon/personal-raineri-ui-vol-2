@@ -1,0 +1,10 @@
+.ui-btn-corner-all, .ui-btn.ui-corner-all, .ui-slider-track.ui-corner-all, .ui-flipswitch.ui-corner-all, .ui-li-count 
+{
+  -webkit-border-radius: 1.3em;
+  border-radius: 1.3em;
+}
+
+#one {
+  background: #000;
+  color: #FFF;
+}
