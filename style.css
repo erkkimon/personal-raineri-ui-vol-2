@@ -1,42 +1,70 @@
+.pseudo-page 
+{
+  background: #000 url("img/bg.jpg");
+  color: #FFF;
+}
+
+h2
+{
+  z-index: 4;
+}
+
+#fade-left
+{
+  pointer-events: none;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  left: 0px;
+  z-index: 0;
+}
+
+#fade-top
+{
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0px;
+}
+
+#fade-right
+{
+  pointer-events: none;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  right: 0px;
+}
+
+#fade-bottom
+{
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  bottom: 0px;
+}
+
+#overlay-bottom
+{
+  pointer-events:none;
+  background: url("img/overlay-bottom.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  bottom: 0px;
+  
+}
+
 .ui-btn-corner-all, .ui-btn.ui-corner-all, .ui-slider-track.ui-corner-all, .ui-flipswitch.ui-corner-all, .ui-li-count 
 {
   -webkit-border-radius: 1.3em;
   border-radius: 1.3em;
 }
 
-.pseudo-page {
-  background: #000;
-  color: #FFF;
-}
 
 
 
-input[type=checkbox].css-checkbox {
-							display:none;
-						}
-
-						input[type=checkbox].css-checkbox + label.css-label {
-							padding-left:38px;
-							height:30px; 
-							display:inline-block;
-							line-height:30px;
-							background-repeat:no-repeat;
-							background-position: 0 0;
-							font-size:30px;
-							vertical-align:middle;
-							cursor:pointer;
-
-						}
-
-						input[type=checkbox].css-checkbox:checked + label.css-label {
-							background-position: 0 -30px;
-						}
-						label.css-label {
-				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_6fae30450e9772f4ff0125c9debb0efb.png);
-				-webkit-touch-callout: none;
-				-webkit-user-select: none;
-				-khtml-user-select: none;
-				-moz-user-select: none;
-				-ms-user-select: none;
-				user-select: none;
-			}
